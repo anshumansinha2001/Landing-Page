@@ -7,6 +7,7 @@
     font-family: 'poppins', sans-serif;
 }
 
+
 section {
     position: relative;
     width: 100%;
@@ -51,6 +52,12 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li a:hover {
+    text-decoration: underline;
+    color: black;
+    text-underline-offset: 0.5rem;
+}
+
 .content {
     position: relative;
     width: 100%;
@@ -91,6 +98,11 @@ header ul li a {
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+}
+
+.content .textBox a:hover {
+    color: #017143;
+    background: white;
 }
 
 .content .imgBox {
